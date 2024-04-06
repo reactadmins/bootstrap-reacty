@@ -100,7 +100,7 @@ run development server
 Within the download you'll find the following directories and files:
 
 ```
-React Admin Dashboard Bootstrap
+Reacty Dashboard Bootstrap
 
 .
 ├── public
