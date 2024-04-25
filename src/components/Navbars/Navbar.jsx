@@ -12,8 +12,7 @@ const Navbar = () => {
     const [openNotification, setOpenNotification] = useState(false);
     const [openMessage, setOpenMessage] = useState(false);
     const [openUser, setOpenUser] = useState(false);
-    const { sidebarMini, setSidebarMini, activeRouter } =
-        useDashboardDataContext();
+    const { sidebarMini, setSidebarMini } = useDashboardDataContext();
 
     let dropRef = useRef();
     useEffect(() => {
@@ -41,9 +40,6 @@ const Navbar = () => {
                         <span className={styles.toggle_effect}></span>
                         <span></span>
                     </button>
-                    <span className={styles.active_navlink}>
-                        {activeRouter ? activeRouter : "Dashboard"}
-                    </span>
                 </div>
                 <ul ref={dropRef}>
                     <li>

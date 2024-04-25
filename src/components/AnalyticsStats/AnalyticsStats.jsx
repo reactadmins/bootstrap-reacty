@@ -119,8 +119,8 @@ const AnalyticsStats = () => {
                         </div>
                     </CardBody>
                     <CardFooter className={styles.card_footer}>
-                        <Row className="gy-2 m-0">
-                            <Col sm={12} md={6} className="m-0">
+                        <Row className="gy-5 gx-5 m-0">
+                            <Col sm={12} md={6} className="mt-3">
                                 <div className={styles.analyticProgress}>
                                     <div className="d-flex align-items-center justify-content-between">
                                         <span className={styles.title}>
@@ -158,7 +158,7 @@ const AnalyticsStats = () => {
                                     />
                                 </div>
                             </Col>
-                            <Col sm={12} md={6} className="m-0">
+                            <Col sm={12} md={6} className="mt-3">
                                 <div className={styles.analyticProgress}>
                                     <div className="d-flex align-items-center justify-content-between">
                                         <span className={styles.title}>

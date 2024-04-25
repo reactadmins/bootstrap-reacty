@@ -6,7 +6,6 @@ export const DashboardDataProvider = ({ children }) => {
     const [sidebarMini, setSidebarMini] = useState(true);
     const [isDark, setIsDark] = useState(false);
     const [isThemeDirection, setIsThemeDirection] = useState(false);
-    const [activeRouter, setActiveRouter] = useState("");
 
     useEffect(() => {
         if (isThemeDirection) {
@@ -37,8 +36,6 @@ export const DashboardDataProvider = ({ children }) => {
                 setIsDark,
                 isThemeDirection,
                 setIsThemeDirection,
-                activeRouter,
-                setActiveRouter,
             }}
         >
             {children}
